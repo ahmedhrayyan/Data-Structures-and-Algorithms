@@ -19,7 +19,7 @@ int MaximumPairwiseProduct()
 			secondMax = max;
 			max = num;
 		}
-		else if (num != max && num > secondMax) secondMax = num;
+		else if (num > secondMax) secondMax = num;
 	}
 
 	return max * secondMax;
