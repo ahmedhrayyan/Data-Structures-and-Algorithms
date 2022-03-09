@@ -6,6 +6,5 @@
 
 int main()
 {
-    int product = MaximumPairwiseProduct();
-    std::cout << product;
+    std::cout << fibonacci_fast(40);
 }

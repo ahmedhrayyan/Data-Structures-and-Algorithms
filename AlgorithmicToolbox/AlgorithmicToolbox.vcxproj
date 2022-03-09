@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AlgorithmicToolbox.cpp" />
+    <ClCompile Include="fibonacci.cpp" />
     <ClCompile Include="MaximumPairwiseProduct.cpp" />
   </ItemGroup>
   <ItemGroup>
