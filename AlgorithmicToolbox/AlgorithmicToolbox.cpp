@@ -6,5 +6,5 @@
 
 int main()
 {
-    std::cout << fibonacci_fast(40);
+    std::cout << gcd(28851538, 1183019);
 }
