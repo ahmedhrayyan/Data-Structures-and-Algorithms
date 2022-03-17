@@ -6,5 +6,5 @@
 
 int main()
 {
-    std::cout << gcd(28851538, 1183019);
+	test_solution();
 }

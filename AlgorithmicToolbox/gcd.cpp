@@ -1,3 +1,4 @@
+#include <iostream>
 #include "AlgorithmicToolbox.h";
 
 int gcd(int a, int b) {
