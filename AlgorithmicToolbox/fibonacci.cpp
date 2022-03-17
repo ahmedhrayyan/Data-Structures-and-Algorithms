@@ -23,22 +23,41 @@ int fibonacci_naive(int n) {
     return fibonacci_naive(n - 1) + fibonacci_naive(n - 2);
 }
 
-int fibonacci_fast(int n) {
+long long fibonacci_fast(int n) {
     if (n <= 1) return n;
 
-    std::vector<int> arr(n);
-    arr[0] = 1;
+    std::vector<long long> arr(n + 1);
+    arr[0] = 0;
     arr[1] = 1;
-    for (int i = 2; i < n; i++) {
+    for (int i = 2; i <= n; i++) {
         arr[i] = arr[i - 1] + arr[i - 2];
     }
 
-    return arr[n - 1];
+    return arr[n];
+}
+
+int last_fibonacci_num(int n) {
+    if (n <= 1) return n;
+
+    int arr[61] = {};
+    arr[0] = 0;
+    arr[1] = 1;
+
+    /* calculate the last digit of the first 60 fibonacci numbers, as the last digit of fibonacci numbers is a series
+    with a cycle length of 60 */
+    for (int i = 2; i <= 60; i++) {
+        arr[i] = (arr[i - 1] + arr[i - 2]) % 10;
+    }
+
+    return arr[n % 60];
 }
 
 void test_solution() {
     assert(fibonacci_fast(3) == 2);
     assert(fibonacci_fast(10) == 55);
     for (int n = 0; n < 20; ++n)
+    {
         assert(fibonacci_fast(n) == fibonacci_naive(n));
+        assert(fibonacci_fast(n) % 10 == last_fibonacci_num(n));
+    }
 }
