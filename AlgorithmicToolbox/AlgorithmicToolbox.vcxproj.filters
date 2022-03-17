@@ -27,6 +27,9 @@
     <ClCompile Include="gcd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lcm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgorithmicToolbox.h">

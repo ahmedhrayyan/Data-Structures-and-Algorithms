@@ -6,5 +6,5 @@
 
 int main()
 {
-	test_solution();
+	std::cout << lcm(761457, 614573);
 }
