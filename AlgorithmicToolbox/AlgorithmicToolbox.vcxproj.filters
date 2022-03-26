@@ -18,7 +18,7 @@
     <ClCompile Include="AlgorithmicToolbox.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MaximumPairwiseProduct.cpp">
+    <ClCompile Include="max_pairwise_product.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="fibonacci.cpp">
@@ -28,6 +28,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="lcm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fib_mod_num.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

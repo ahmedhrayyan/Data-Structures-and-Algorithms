@@ -3,7 +3,7 @@
 #include <limits>
 #include "AlgorithmicToolbox.h";
 
-int MaximumPairwiseProduct()
+int max_pairwise_product()
 {
 	int n;
 	std::cin >> n;

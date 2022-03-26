@@ -2,9 +2,11 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <string>
 #include "AlgorithmicToolbox.h"
 
 int main()
 {
-	std::cout << lcm(761457, 614573);
+	std::cout << fib_mod_num(239, 1000);
 }

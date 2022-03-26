@@ -141,9 +141,10 @@
   <ItemGroup>
     <ClCompile Include="AlgorithmicToolbox.cpp" />
     <ClCompile Include="fibonacci.cpp" />
+    <ClCompile Include="fib_mod_num.cpp" />
     <ClCompile Include="gcd.cpp" />
     <ClCompile Include="lcm.cpp" />
-    <ClCompile Include="MaximumPairwiseProduct.cpp" />
+    <ClCompile Include="max_pairwise_product.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgorithmicToolbox.h" />
