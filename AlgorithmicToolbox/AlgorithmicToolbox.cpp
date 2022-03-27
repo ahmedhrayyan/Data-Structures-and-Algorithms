@@ -8,5 +8,6 @@
 
 int main()
 {
-	std::cout << fib_mod_num(239, 1000);
+	std::cout << last_fib_sum_num(239);
+	return 0;
 }

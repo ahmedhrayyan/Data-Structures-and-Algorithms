@@ -33,6 +33,9 @@
     <ClCompile Include="fib_mod_num.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="last_fib_sum_num.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgorithmicToolbox.h">
