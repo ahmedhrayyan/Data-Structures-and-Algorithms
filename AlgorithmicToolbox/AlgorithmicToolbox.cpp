@@ -8,6 +8,6 @@
 
 int main()
 {
-	std::cout << last_fib_sum_num(239);
+	std::cout << get_fib_partial_sum(10, 200);
 	return 0;
 }

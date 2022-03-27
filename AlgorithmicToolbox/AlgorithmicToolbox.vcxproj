@@ -143,6 +143,7 @@
     <ClCompile Include="fibonacci.cpp" />
     <ClCompile Include="fib_mod_num.cpp" />
     <ClCompile Include="gcd.cpp" />
+    <ClCompile Include="get_fib_partial_sum.cpp" />
     <ClCompile Include="last_fib_sum_num.cpp" />
     <ClCompile Include="lcm.cpp" />
     <ClCompile Include="max_pairwise_product.cpp" />
